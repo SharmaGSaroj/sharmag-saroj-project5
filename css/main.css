@@ -1,0 +1,175 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+}
+p {
+  color: white;
+  line-height: 100px;
+  text-align: center;
+  margin: 0;
+}
+img {
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Source Serif 4", sans-serif;
+  font-size: 15px;
+  color: #333;
+}
+.hidden {
+  display: none;
+}
+a:hover,
+a:active {
+  text-decoration: none;
+  color: #666;
+}
+#wrapper {
+  width: 90%;
+  margin: 0 auto;
+  background-color: lightgrey;
+}
+.mainHeader {
+  margin-top: 40px;
+  padding-bottom: 90px;
+  overflow: hidden;
+}
+.topsection {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.mainNavLeft {
+  width: 300px;
+  overflow: hidden;
+  background-color: black;
+}
+.logo {
+  width: 140px;
+  background-color: black;
+}
+.mainNavRight {
+  width: 300px;
+  background-color: black;
+}
+.background {
+  padding-bottom: 100px;
+}
+.Slogan {
+  width: 90%;
+  max-width: 500px;
+  border-radius: 30px;
+  background: black;
+  margin: auto;
+  padding: 2px;
+}
+
+footer {
+  margin-top: 60px;
+  padding-bottom: 60px;
+  display: inline-flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 30px;
+  justify-items: center;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+.footer > * {
+  flex: 1 1 100px;
+}
+.FooterLogo {
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+  background-color: black;
+}
+.SocialIcon {
+  width: 150px;
+  height: 200px;
+  overflow: hidden;
+  background-color: black;
+}
+.FooterNav {
+  width: 150px;
+  height: 200px;
+  overflow: hidden;
+  background-color: black;
+}
+.ProductSlogan {
+  width: 150px;
+  height: 200px;
+  overflow: hidden;
+  background-color: black;
+}
+.SubscribeText {
+  width: 200px;
+  height: 100px;
+  overflow: hidden;
+  background-color: black;
+  align-items: center;
+}
+.EmailInput {
+  width: 300px;
+  height: 100px;
+  overflow: hidden;
+  background-color: black;
+}
+
+.ContactUs {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.CompanyInfo {
+  width: 400px;
+  height: 200px;
+  overflow: hidden;
+  background-color: black;
+  text-align: center;
+}
+.form {
+  margin-top: 40px;
+  padding-bottom: 90px;
+  overflow: hidden;
+}
+.EmailUs {
+  width: 400px;
+  height: 400px;
+  background-color: black;
+  align-items: center;
+}
+
+@media screen and (min-widtd: 600px) {
+  .ContactUs {
+    display: flex;
+    flex-direction: row;
+    row-gap: 20px;
+    justify-content: space-around;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  #wrapper {
+    width: 900px;
+    margin: 0 auto;
+    background-color: lightgrey;
+  }
+  .topsection {
+    display: unset;
+  }
+}
+@media screen and (min-widtd: 1080px) {
+  #wrapper {
+    width: 1080px;
+    margin: 0 auto;
+    background-color: lightgrey;
+  }
+}
